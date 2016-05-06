@@ -54,7 +54,7 @@ while [[ "$frequency" -lt 1800000000 ]]; do
 
 	if [[ "$result" != "" ]]
 	then
-		echo "$frequency: true" >> "./frequency.log"
+		echo "$frequency: true" >> "./frequency.txt"
 	fi
 
 	frequency=`expr $frequency + 100000`
