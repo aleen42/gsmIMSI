@@ -34,9 +34,9 @@
 # fork a process to kill grgsm live monitor
 
 
-frequency=1276600000
+frequency=937600000
 
-while [[ "$frequency" -lt 1800000000 ]]; do
+while [[ "$frequency" -lt 1000000000 ]]; do
 	{
 		pid=`ps -A | grep grgsm_livemon | sed -n "1, 1p" | awk '{print int($1)}'`
 		while [[ "$pid" == "" ]]; do
