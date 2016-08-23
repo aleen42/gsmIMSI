@@ -9,6 +9,10 @@ Recommended conditions:
 - a PC with Ubuntu 14.04
 - 1 USB DVB-T key (RTL2832U) with antenna
 
+#### Usage
+
+For furthur usage of this project, you can see this [tutorial](https://aleen42.gitbooks.io/personalwiki/content/qa/build_gr_rsm.html#4-tutorials-of-using-gsmimsi).
+
 #### :fuelpump: How to contribute
 
 Have an idea? Found a bug? See [how to contribute](https://aleen42.gitbooks.io/personalwiki/content/contribution.html).
